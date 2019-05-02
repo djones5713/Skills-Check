@@ -32,3 +32,15 @@ function redacted() {
 }
 
 setPowers(me.superPowers);
+
+const me = {firstname: "Destiny", superHeroName: "Bodacious", homeTown:"New York", superPowers: ['skateboarding', 'crime fighting', 'crime inciting'], superPowerXP: function(){
+ return Math.floor(Math.random() * 100) + 1;
+
+
+var 
+
+
+
+
+}, profileImage }
+

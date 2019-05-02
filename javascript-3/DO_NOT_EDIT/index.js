@@ -20,3 +20,32 @@ function displayData() {
   groceryInput.value = ''
 }
 displayData();
+
+var groceries = ["milk", "cheese","eggs"];
+var yourName = "Destiny";
+
+function setGroceryListTitle(x){
+  return groceries;
+}
+
+function addItem(item) {
+   groceries.push(item);
+   displayData()
+}
+
+function removeItem(index){
+  groceries.splice(index, 0)
+  displayData()
+}
+
+function checkGroceryCount(){
+  for(i = 0; i > groceries.length;i++){
+    if(number >= 5){
+      return 'That looks like a big trip' 
+    } else if(number = 0){
+      return '1 item'
+      } else if (number > 0 && number < 6){
+        return item
+      }
+    }
+    }
